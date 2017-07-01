@@ -1,0 +1,77 @@
+#	  ___     ___    ___ ___   _____    ___  _____   _____   
+#	/' _ `\  /'___\/' __` __`\/\ '__`\ /'___/\ '__`\/\ '__`\ 
+#	/\ \/\ \/\ \__//\ \/\ \/\ \ \ \L\ /\ \__\ \ \L\ \ \ \L\ \
+#	\ \_\ \_\ \____\ \_\ \_\ \_\ \ ,__\ \____\ \ ,__/\ \ ,__/
+#	 \/_/\/_/\/____/\/_/\/_/\/_/\ \ \/ \/____/\ \ \/  \ \ \/ 
+#	                             \ \_\         \ \_\   \ \_\ 
+#	                              \/_/          \/_/    \/_/ 
+
+
+# files & directories
+ncmpcpp_directory = ~/.ncmpcpp
+mpd_music_dir = ~/Music
+
+
+# network
+mpd_host = localhost
+mpd_port = 7755
+mpd_connection_timeout = 5
+mpd_crossfade_time = 5
+
+
+# visualizer
+audio_output {
+       type            "fifo"
+       name            "FIFO"
+       path            "/tmp/mpd.fifo"
+       format          "44100:16:2"
+}
+
+visualizer_fifo_path = /tmp/mpd.fifo
+visualizer_output_name = FIFO
+visualizer_in_stereo = no
+visualizer_sample_multiplier = 0.15
+visualizer_sync_interval = 15
+visualizer_type = spectrum
+visualizer_look = ●-
+
+
+# player settings
+centered_cursor = yes
+progressbar_look ==>
+progressbar_boldness = no
+user_interface = alternative
+startup_screen = browser
+
+
+# displays
+display_volume_level = no
+display_bitrate = yes
+display_remaining_time = yes
+
+
+# misc
+mouse_support = no
+external_editor = micro
+use_console_editor = yes
+
+
+# colors
+colors_enabled = yes
+empty_tag_color = red
+header_window_color = red
+volume_color = red
+state_line_color = red
+state_flags_color = red
+main_window_color = red
+color1 = white
+color2 = red
+main_window_highlight_color = red
+progressbar_color = white
+progressbar_elapsed_color = red
+statusbar_color = red
+alternative_ui_separator_color = red
+active_column_color = red
+visualizer_color = red
+window_border_color = red
+active_window_border = white
