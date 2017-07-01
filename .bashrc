@@ -1,4 +1,4 @@
-
+source ~/.bash_prompt
 
 export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
 export LESS='-R '
