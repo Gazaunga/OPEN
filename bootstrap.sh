@@ -22,4 +22,4 @@ git config --global core.safecrlf true
 
 bundle install --path vendor/bundle 
 
-sh deploy.sh
+sh ~/OPEN/deploy.sh
