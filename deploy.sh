@@ -1,6 +1,6 @@
 #!/bin/bash
 # cp -R OPEN/. $HOME/
-source ~/OPEN/utils.sh
+source ~/OPEN/.scripts/utils.sh
 # Merge two directories. Copying over files.
 # Usage: merge dir1 dir2
 # This copies everything in dir1 INTO dir2, overwriting same named files
