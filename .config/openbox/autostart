@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ -x ~/.config/openbox/autostart_functions ]; then
+	. ~/.config/openbox/autostart_functions
+fi
+
+setDisplay &
+
+menu &
+wallpaper &
+
+effects &
+cUserpanel &
+
+# Cloud File Storage
+dropboxd &
+CopyAgent &
+
+#pytyle3 &
+
+screensaver &
