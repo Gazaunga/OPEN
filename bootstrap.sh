@@ -19,6 +19,7 @@ clipmenu
 screen
 st
 rofi
+mc
 
 curl -sLf https://spacevim.org/install.sh | bash
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
